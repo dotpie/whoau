@@ -7,3 +7,5 @@ ignore/
 *cache*/
 
 *.lock
+
+tags
