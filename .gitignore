@@ -1,0 +1,11 @@
+.tox/
+build/
+dist/
+ignore/
+
+*info/
+*cache*/
+
+*.lock
+
+tags
