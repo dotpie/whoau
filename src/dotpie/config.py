@@ -45,7 +45,7 @@ class AuthorConfig:
     name: str = "dotpie"
     github: str = "https://github.com/dotpie"
     blog: str = "https://dotpie.dev"
-    email: str = "dotpie.py@gmail.com"
+    email: str = "mail@dotpie.dev"
 
 
 @dataclass
