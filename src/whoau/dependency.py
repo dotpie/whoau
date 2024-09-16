@@ -1,4 +1,4 @@
-# src/dotpie/installation.py
+# src/whoau/installation.py
 
 import sys
 from typing import List, Union
@@ -6,7 +6,7 @@ from typing import List, Union
 from rich.console import Console
 from rich.prompt import Prompt
 
-from dotpie.utils import load_config
+from whoau.utils import load_config
 
 
 # -- Legacy -- #

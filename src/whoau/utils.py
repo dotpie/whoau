@@ -1,4 +1,4 @@
-# src/dotpie/utils.py
+# src/whoau/utils.py
 
 from typing import Optional
 
@@ -7,7 +7,7 @@ import time
 import subprocess
 from rich.console import Console
 
-from dotpie.config import Parameters
+from whoau.config import Parameters
 
 
 # Exception
@@ -26,7 +26,7 @@ def clear_screen(delay: float = 0.3):
 
 
 # Load a whole configuration data from pypi,
-# customized data from src/dotpie/config.py
+# customized data from src/whoau/config.py
 def load_config():
     return Parameters()
 

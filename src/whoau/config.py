@@ -9,7 +9,7 @@ from dataclasses import dataclass, field, fields
 
 
 # -- Load Metadata -- #
-def get_metadata(package_name="dotpie"):
+def get_metadata(package_name="whoau"):
     meta = metadata(package_name)
     return meta
 
@@ -29,9 +29,9 @@ class UserConfig:
 @dataclass
 class ProjectConfig:
     name: str = meta.get("name", "unknown")
-    version: str = meta.get("version", version("dotpie"))
+    version: str = meta.get("version", version("whoau"))
     license: str = meta.get("license", "unknown")
-    dependencies: list = field(default_factory=lambda: requires("dotpie"))
+    dependencies: list = field(default_factory=lambda: requires("whoau"))
 
 
 @dataclass

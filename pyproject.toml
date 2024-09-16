@@ -3,7 +3,7 @@ requires = [ "poetry-core",]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "dotpie"
+name = "whoau"
 version = "0.1.0"
 description = "Have any questions? Take a moment to find out!"
 license = "MIT"
@@ -11,7 +11,7 @@ authors = [ "dotpie <mail@dotpie.dev>",]
 maintainers = [ "dotpie <mail@dotpie.dev>",]
 readme = "README.md"
 homepage = "https://github.com/dotpie/dotpie"
-repository = "https://github.com/dotpie/dotpie"
+repository = "https://github.com/dotpie/whoau"
 keywords = ["hello world", "python", "profile", "readme",]
 
 
@@ -24,11 +24,11 @@ requests = "^2.32.3"
 pytest = "^8.2.2"
 
 [tool.poetry.scripts]
-hello = "dotpie.main:main"
+dotpie = "whoau.main:main"
 # dotpie = "dotpie.main:main"
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/dotpie/dotpie/issues"
+"Bug Tracker" = "https://github.com/dotpie/whoau/issues"
 
 
 # # For GitHub Actions PyTest

@@ -1,12 +1,12 @@
-# src/dotpie/content.py
+# src/whoau/content.py
 
 """
 Only the Content will be placed here
 """
 
-from dotpie.config import Parameters
-from dotpie.utils import custom_color
-from dotpie.localization import local_greeting
+from whoau.config import Parameters
+from whoau.utils import custom_color
+from whoau.localization import local_greeting
 
 # config = Parameters()
 color_main, color_sub, color_emp = custom_color()  # color
@@ -34,7 +34,7 @@ def contact(config: dict) -> dict:
 
 def code() -> str:
     return """
-    from four-years import Educator, Engineer, Researcher, Vision
+    from four_years import Educator, Engineer, Researcher, Vision
 
     class Dotpie(nn.Module):
         def __init__(self):
@@ -74,7 +74,7 @@ def proceed() -> str:
 def contents(customize_location: bool) -> dict:
     config = Parameters()
     contents_dict = dict()
-    greeting = local_greeting(customize_location)  # dotpie/localization
+    greeting = local_greeting(customize_location)  # whoau/localization
 
     # combine
     contents_dict["introduce"] = introduce(greeting)

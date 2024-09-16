@@ -1,10 +1,10 @@
-# src/dotpie/userid.py
+# src/whoau/userid.py
 
 # PyPI Stats retains data for 180 days (https://pypistats.org/about)
 
 import requests
 
-from dotpie.utils import BadRequestError, load_config
+from whoau.utils import BadRequestError, load_config
 
 
 # Filter and Summation the number of downloads from parsing data

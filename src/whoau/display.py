@@ -1,4 +1,4 @@
-# src/dotpie/display.py
+# src/whoau/display.py
 import sys
 
 from rich.console import Console
@@ -9,8 +9,8 @@ from rich.syntax import Syntax
 from rich.table import Table
 from rich.align import Align
 
-from dotpie.utils import custom_color, clear_screen
-from dotpie.contents import contents
+from whoau.utils import custom_color, clear_screen
+from whoau.contents import contents
 
 color_main, color_sub, color_emp = custom_color()  # color
 

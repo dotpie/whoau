@@ -3,12 +3,12 @@
 import time
 from rich.console import Console
 
-# from dotpie.installation import install_dependencies
-from dotpie.userid import sum_downloads_in_180
-from dotpie.utils import clear_screen, typing_effect
+# from whoau.installation import install_dependencies
+from whoau.userid import sum_downloads_in_180
+from whoau.utils import clear_screen, typing_effect
 
-from dotpie.localization import get_local_greeting
-from dotpie.display import display_rich_contents
+from whoau.localization import get_local_greeting
+from whoau.display import display_rich_contents
 
 
 def load_userid() -> int:
