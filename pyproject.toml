@@ -24,7 +24,8 @@ requests = "^2.32.3"
 pytest = "^8.2.2"
 
 [tool.poetry.scripts]
-dotpie = "dotpie.main:main"
+hello = "dotpie.main:main"
+# dotpie = "dotpie.main:main"
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/dotpie/dotpie/issues"
