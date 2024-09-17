@@ -23,7 +23,6 @@ def check_downloads_in_180(MIRROR_OR_NOT, response):
 
 # Parsing the number of downloads from pypistats
 def sum_downloads_in_180():
-    return 2104  # tmp value
     # Load Metadata from toml
     config = load_config()
 
