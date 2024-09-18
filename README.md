@@ -2,12 +2,15 @@
 <h2 align="center">Welcome, Stranger!</h2>
 
 <div align="center">
-    <a href="https://github.com/dotpie">
-        <img a="pip-install-whoau" src="https://github.com/user-attachments/assets/ee6753ef-de89-4029-b72f-0c962caa4725"/>
+    <a href="https://github.com/dotpie?tab=repositories">
+        <img a="pip-install-whoau" src="https://github.com/user-attachments/assets/ee6753ef-de89-4029-b72f-0c962caa4725" style="width: 80%"/>
     </a>
 </div>
 
 <div align="center">
+  <a href="https://github.com/dotpie/whoau/actions/workflows/python-package.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/dotpie/whoau/python-package.yml?branch=main&label=actions&style=flat-square" alt="workflow" style="height: 20px;">
+  </a>
   <a href="https://github.com/dotpie/whoau/graphs/contributors">
     <img src="https://img.shields.io/github/contributors-anon/dotpie/whoau?color=yellow&style=flat-square" alt="contributors" style="height: 20px;">
   </a>
