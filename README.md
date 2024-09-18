@@ -22,6 +22,8 @@
 
 ## 🔬 What is this?
 
+https://github.com/user-attachments/assets/1226da2b-9c16-47f6-a4b6-7f589f2cbb2f
+
 Two lines are sufficient to express us! This Python package provides personal details just like the GitHub profile README. What you need is Python 3.8 and your own terminal. This package is build with 95% Python, only because I am born to be a python developer. Minimized dependencies to 1 to keep the environment clean, except for 'rich' which can colorize the terminal.
 
 
@@ -43,7 +45,7 @@ Anyone who encounters this will follow the steps below
 
 ```bash
 pip install whoau
-dotpie
+dotpie      // or your own username
 ```
 
 

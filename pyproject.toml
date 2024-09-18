@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "whoau"
-version = "0.1.0"
+version = "0.1.1"
 description = "Have any questions? Take a moment to find out!"
 license = "MIT"
 authors = [ "dotpie <mail@dotpie.dev>",]
