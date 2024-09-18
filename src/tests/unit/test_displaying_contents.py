@@ -2,11 +2,11 @@
 
 # Testing tool
 import pytest
-from dotpie.config import Parameters
-from dotpie.localization import local_greeting
+from whoau.config import Parameters
+from whoau.localization import local_greeting
 
 # Testing target
-from dotpie.contents import introduce, contact, code, farewell, proceed
+from whoau.contents import introduce, contact, code, farewell, proceed
 
 
 # -- Utils -- #
